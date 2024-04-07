@@ -1,9 +1,11 @@
-import '../styles/Home.css';
+import HomeHeader from '../components/HomeHeader';
+import PostContainer from '../components/PostContainer';
 
 function Home() {
   return (
     <div className="Home">
-      Initial commit
+      <HomeHeader />
+      <PostContainer />
     </div>
   );
 }
